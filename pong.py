@@ -8,9 +8,6 @@ resolution_screen = tk.Tk()
 screen_x = resolution_screen.winfo_screenwidth()
 screen_y = resolution_screen.winfo_screenheight()
 
-screen_x *= .7
-screen_y *= .7
-
 pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((screen_x, screen_y))
